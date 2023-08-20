@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+
+    /* ... kode CSS sebelumnya ... */
+
+ .container {
+    text-align: center;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+}
+  
+  }
+  
+  .cake {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: #ffcc69;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .candle {
+    position: absolute;
+    width: 10px;
+    height: 80px;
+    background-color: #ff8b8b;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
